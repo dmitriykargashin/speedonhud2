@@ -166,7 +166,7 @@ class MainSurfaceView extends GLSurfaceView {
             intent.putExtra("AnalogMode", mainActivity.analogMode);
             intent.putExtra("PreventScreenOff", mainActivity.preventScreenOff);
 
-            // фиктивно
+            // фиктивно вводим
             Integer rslt;
             rslt = 1;
 

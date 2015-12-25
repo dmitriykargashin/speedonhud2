@@ -31,7 +31,7 @@ public class ActivitySettings extends ActionBarActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-// получаем парамеры
+// получаем парамеры со спутников
         Intent intent = getIntent();
         hudMode = intent.getBooleanExtra("HudMode", false);
         analogMode = intent.getBooleanExtra("AnalogMode", false);

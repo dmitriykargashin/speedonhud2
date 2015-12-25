@@ -159,7 +159,7 @@ class MainSurfaceView extends GLSurfaceView {
 
     @Override
     public boolean onTouchEvent(MotionEvent e) {
-        // обработка нажатия на glSurface_!
+        // обработка нажатия на glSurface_!!
         if (MotionEvent.ACTION_DOWN == e.getAction()) {
             // передадим параметры в активити настроек
             intent.putExtra("HudMode", mainActivity.hudMode);

@@ -67,7 +67,7 @@ public class ActivitySettings extends ActionBarActivity {
 
     @Override
     protected void onStop() {
-        // на закрытие применяем параметры
+        // на закрытие применяем параметры н
         ApplySettings();
         super.onStop();
     }

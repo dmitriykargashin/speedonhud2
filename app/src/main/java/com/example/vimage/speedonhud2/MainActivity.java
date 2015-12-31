@@ -150,7 +150,7 @@ class MainSurfaceView extends GLSurfaceView {
     public MainSurfaceView(Context fContext, Speedometer speedometer, Intent fIntent) {
         super(fContext);
         intent = fIntent;
-        context = fContext;
+        context = fContext;//!
         mainActivity = (MainActivity) fContext;
 
         setRenderer(new OpenGLRenderer(speedometer, context));
